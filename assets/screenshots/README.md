@@ -2,6 +2,7 @@
 
 1. login and business selection,
 2. dashboard summary,
+![Dashboard Summary](dashboard.jpeg)
 3. POS product grid,
 4. cart and checkout flow,
 5. receipt bottom sheet,

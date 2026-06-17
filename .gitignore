@@ -35,4 +35,3 @@ build/
 storage/*.key
 bootstrap/cache/*.php
 
-docs/public-repo-sanitization-checklist.md
