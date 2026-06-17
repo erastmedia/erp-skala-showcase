@@ -86,11 +86,9 @@ More details are available in [`docs/architecture.md`](docs/architecture.md).
 
 ## Demo Materials
 
-Add your public demo materials here:
-
 - Live demo: `https://skalausaha.id`
 - API demo: `https://api.skalausaha.id`
-- Walkthrough video: `TODO: add video link`
+- Walkthrough video: 
 - Screenshots: [`assets/screenshots`](assets/screenshots)
 
 ## Repository Structure
