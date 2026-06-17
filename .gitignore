@@ -34,3 +34,5 @@ build/
 # Laravel / Flutter generated files
 storage/*.key
 bootstrap/cache/*.php
+
+docs/public-repo-sanitization-checklist.md
