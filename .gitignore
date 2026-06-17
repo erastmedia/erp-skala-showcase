@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Logs and dumps
+*.log
+*.sql
+*.sqlite
+*.dump
+*.bak
+*.zip
+*.tar
+*.gz
+
+# Dependency folders
+node_modules/
+vendor/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Laravel / Flutter generated files
+storage/*.key
+bootstrap/cache/*.php

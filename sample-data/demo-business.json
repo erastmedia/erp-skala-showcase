@@ -1,0 +1,51 @@
+{
+  "business": {
+    "name": "Kopi Skala Demo",
+    "type": "Food & Beverage",
+    "currency": "IDR"
+  },
+  "cash_accounts": [
+    {
+      "name": "Cash",
+      "balance": 1250000
+    },
+    {
+      "name": "Main Bank Account",
+      "balance": 3200000
+    },
+    {
+      "name": "QRIS",
+      "balance": 850000
+    }
+  ],
+  "products": [
+    {
+      "sku": "KOPI-001",
+      "name": "Es Kopi Susu",
+      "stock": 35,
+      "unit": "cup"
+    },
+    {
+      "sku": "KOPI-002",
+      "name": "Americano",
+      "stock": 22,
+      "unit": "cup"
+    },
+    {
+      "sku": "SNACK-001",
+      "name": "Roti Bakar",
+      "stock": 14,
+      "unit": "pcs"
+    }
+  ],
+  "customers": [
+    {
+      "code": "CUST-001",
+      "name": "Walk-in Customer"
+    },
+    {
+      "code": "CUST-002",
+      "name": "Budi Demo"
+    }
+  ]
+}

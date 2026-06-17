@@ -1,0 +1,88 @@
+openapi: 3.0.3
+info:
+  title: ERP SKALA UMKM Sample API
+  version: 0.1.0
+  description: >
+    Sanitized sample API contract for public showcase purposes.
+    This is not the complete production API specification.
+
+servers:
+  - url: https://api.example.com
+    description: Demo API placeholder
+
+paths:
+  /auth/login:
+    post:
+      summary: Login
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email:
+                  type: string
+                  example: owner@example.test
+                password:
+                  type: string
+                  example: password
+      responses:
+        "200":
+          description: Login success
+
+  /auth/businesses:
+    get:
+      summary: Get accessible businesses
+      tags: [Auth]
+      responses:
+        "200":
+          description: List of businesses accessible by authenticated user
+
+  /dashboard/summary:
+    get:
+      summary: Get business dashboard summary
+      tags: [Dashboard]
+      responses:
+        "200":
+          description: Dashboard summary
+
+  /sales/transactions:
+    post:
+      summary: Create sale draft
+      tags: [Sales]
+      responses:
+        "201":
+          description: Draft sale created
+
+  /sales/transactions/{id}/post:
+    post:
+      summary: Post sale transaction
+      tags: [Sales]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Sale posted successfully
+
+  /inventory/products:
+    get:
+      summary: Get product list
+      tags: [Inventory]
+      responses:
+        "200":
+          description: Product list
+
+  /finance/cash-book:
+    get:
+      summary: Get cash book entries
+      tags: [Finance]
+      responses:
+        "200":
+          description: Cash book list
