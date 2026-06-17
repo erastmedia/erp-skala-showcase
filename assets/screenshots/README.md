@@ -19,10 +19,11 @@ This folder contains sanitized screenshots for the ERP SKALA UMKM public showcas
 
 ## RECEIPT BOTTOM SHEET
 
-<img src="receipt_bottom_sheet.jpeg" alt="POS Product Grid" width="280">
+<img src="receipt_bottom_sheet.jpeg" alt="Receipt Bottom Sheet" width="280">
 
 ## INVENTORY STOCK LIST
 
+<img src="inventory-stock-list.jpeg" alt="Inventory Stock List" width="280">
 
 ## FINANCE CASH BOOK
 
