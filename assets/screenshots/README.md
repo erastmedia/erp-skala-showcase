@@ -15,7 +15,7 @@ This folder contains sanitized screenshots for the ERP SKALA UMKM public showcas
 
 ## CART AND CHECKOUT FLOW
 
-<img src="pos_add_to_cart.jpeg" alt="Add to Cart" width="320"> | <img src="cart.jpeg" alt="Cart" width="320"> | <img src="checkout.jpeg" alt="Checkout" width="320">
+<img src="pos_add_to_cart.jpeg" alt="Add to Cart" width="320">  <img src="cart.jpeg" alt="Cart" width="320">  <img src="checkout.jpeg" alt="Checkout" width="320">
 
 ## RECEIPT BOTTOM SHEET
 
